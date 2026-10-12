@@ -1,0 +1,37 @@
+# Dependencies
+/node_modules
+
+# Next.js build files
+/.next/
+/out/
+
+# Production builds
+/build
+/dist
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local source archives and exports
+/rorp-bolt-site.zip
+/rorp-images/
+/rorp-catalogue-source.json
+/.bolt/
